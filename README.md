@@ -1,5 +1,12 @@
 # TIL
 
+## 2021-06-11
+
+`mysqldump` supports exporting the table structure without the data when we pass `--no-data`
+
+https://stackoverflow.com/questions/6175473/mysql-export-schema-without-data
+
+
 ## 2021-06-02
 
 In Sequelize (ORM), To do a bulk `upsert`, we can use `bulkCreate` with `updateOnDuplicate` parameter. 
