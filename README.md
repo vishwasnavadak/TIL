@@ -1,5 +1,11 @@
 # TIL
 
+## 2021-06-21
+
+Clear all local docker builds/images
+
+https://stackoverflow.com/questions/44785585/docker-how-to-delete-all-local-docker-images
+
 ## 2021-06-11
 
 `mysqldump` supports exporting the table structure without the data when we pass `--no-data`
