@@ -1,5 +1,11 @@
 # TIL
 
+## 2021-06-23
+
+AWS Nodejs sdk for s3 getObject call has a limit of 2GB for single part download.
+https://github.com/aws/aws-sdk-js/issues/2916
+
+
 ## 2021-06-21
 
 Clear all local docker builds/images
