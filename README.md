@@ -1,5 +1,11 @@
 # TIL
 
+## 2021-06-29
+
+Docker initially built in local and pushed to ECR will not work if it is build in Apple M1 Processor. Would be better to build in Linux env (Github Action/Other pipeline). 
+
+https://stackoverflow.com/questions/67361936/exec-user-process-caused-exec-format-error-in-aws-fargate-service
+
 ## 2021-06-23
 
 AWS Nodejs sdk for s3 getObject call has a limit of 2GB for single part download.
