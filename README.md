@@ -1,5 +1,11 @@
 # TIL
 
+
+## 2021-08-12
+
+Famous [shortId](https://www.npmjs.com/package/shortid) npm package is depracated. Recommended to use [NanoId](https://github.com/ai/nanoid/) instead.
+
+
 ## 2021-06-29
 
 Docker image initially built (`docker build`) in local and pushed to ECR will not work if it is build in Apple M1 Processor. Would be better to build in Linux env (Github Action/Other pipeline). 
