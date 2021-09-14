@@ -24,7 +24,17 @@ https://github.com/aws/aws-sdk-js/issues/2916
 
 ## 2021-06-21
 
-Clear all local docker builds/images
+Clear all local docker builds/images,
+```sh
+# To delete all containers including its volumes use,
+
+docker rm -vf $(docker ps -a -q)
+
+# To delete all the images,
+
+docker rmi -f $(docker images -a -q)
+
+```
 
 https://stackoverflow.com/questions/44785585/docker-how-to-delete-all-local-docker-images
 
