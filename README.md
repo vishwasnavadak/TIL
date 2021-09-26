@@ -1,6 +1,11 @@
 # TIL
 
 
+## 2021-09-26
+
+Pi Hole can be un locally on Macbook: https://www.imore.com/how-run-pi-hole-your-mac
+
+
 ## 2021-08-12
 
 Famous [shortId](https://www.npmjs.com/package/shortid) npm package is depracated. Recommended to use [NanoId](https://github.com/ai/nanoid/) instead.
