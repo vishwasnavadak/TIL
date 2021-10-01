@@ -1,5 +1,8 @@
 # TIL
 
+## 2021-10-01
+
+UUID for Google Sheet Cells: https://stackoverflow.com/a/51254597/2526327
 
 ## 2021-09-26
 
