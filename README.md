@@ -1,5 +1,11 @@
 # TIL
 
+## 2021-10-26
+
+List all Enums on PostgreSQL
+
+https://stackoverflow.com/questions/9540681/list-postgres-enum-type
+
 ## 2021-10-01
 
 UUID for Google Sheet Cells: https://stackoverflow.com/a/51254597/2526327
