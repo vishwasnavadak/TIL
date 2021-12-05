@@ -12,7 +12,7 @@ UUID for Google Sheet Cells: https://stackoverflow.com/a/51254597/2526327
 
 ## 2021-09-26
 
-Pi Hole can be un locally on Macbook: https://www.imore.com/how-run-pi-hole-your-mac
+Pi Hole can be run locally on Macbook: https://www.imore.com/how-run-pi-hole-your-mac
 
 
 ## 2021-08-12
