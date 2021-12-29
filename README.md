@@ -1,5 +1,12 @@
 # TIL
 
+## 2021-12-29
+
+Deleting undeletable AWS Amplify Deployements with Backend
+
+https://github.com/aws-amplify/amplify-console/issues/2456
+
+
 ## 2021-10-26
 
 List all Enums on PostgreSQL
