@@ -1,5 +1,11 @@
 # TIL
 
+## 2022-01-18
+
+Fixing misconfigured `.gitignore` 
+
+https://stackoverflow.com/a/38983205
+
 ## 2021-12-29
 
 Deleting undeletable AWS Amplify Deployements with Backend
