@@ -1,5 +1,47 @@
 # TIL
 
+## 2022-05-18
+
+Get Parent Commit hash of a commit hash
+
+https://stackoverflow.com/a/25664507/2526327
+
+```
+git rev-list --parents -n 1 <commithash>
+```
+
+## 2022-05-17
+
+Rebasing the unverified commits to verified commits on GitHub.
+
+https://stackoverflow.com/a/59351278/2526327
+
+You can do this by re-committing it:
+
+    git rebase -i <commit before first problematic commit>
+
+After this, your text editor will open up. Change every `pick` to `edit`.
+
+After that you'll have to re-commit every commit with the following command:
+
+    git commit --author="<name> <<E-Mail(once in brackets, see example)>>" -S --amend --no-edit
+    git rebase --continue
+
+In the end, you'll have to overwrite the remote by doing
+
+    git push --force-with-lease
+
+This is better than `git push -f` but you should also be careful.
+
+If someone knows a way to do this automatically, tell me in the comments.
+
+example of the commit command:
+
+    git commit --author="testuser <testuser@github.com>" -S --amend --no-edit
+
+
+
+
 ## 2022-01-18
 
 Fixing misconfigured `.gitignore` 
