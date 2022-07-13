@@ -1,5 +1,12 @@
 # TIL
 
+## 2022-07-13
+
+Remote Inspect from Android Studio and XCode for Capacitor Apps
+
+https://stackoverflow.com/a/67920303
+
+
 ## 2022-05-18
 
 Get Parent Commit hash of a commit hash
