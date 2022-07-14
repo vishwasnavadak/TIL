@@ -1,5 +1,22 @@
 # TIL
 
+## 2022-07-14
+
+Universal Link Validators
+
+* iOS: https://search.developer.apple.com/appsearch-validation-tool/
+* Third Party: https://branch.io/resources/aasa-validator/
+
+Common Issues:
+1. `/.well-known/apple-app-site-association` files needs to have a custom rewrite if website is a react app. 
+<img width="1151" alt="image" src="https://user-images.githubusercontent.com/13111030/178991071-b5ef5303-a8e0-4d88-addc-ced5782989b7.png">
+2. If website has www and no www sites / redirects, both of them needs to have in the applinks on ios config.
+
+Documentation: https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html#//apple_ref/doc/uid/TP40016308-CH12-SW2
+
+
+
+
 ## 2022-07-13
 
 Remote Inspect from Android Studio and XCode for Capacitor Apps
