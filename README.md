@@ -1,5 +1,14 @@
 # TIL
 
+## 2022-12-16
+
+Change linked Repository of Amplify
+
+https://github.com/aws-amplify/amplify-hosting/issues/288#issuecomment-737192995
+
+<img width="1033" alt="image" src="https://user-images.githubusercontent.com/13111030/208035590-710ef74e-db70-40a1-94ef-e7c4d9270287.png">
+
+
 ## 2022-07-14
 
 Universal Link Validators
