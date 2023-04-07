@@ -1,5 +1,16 @@
 # TIL
 
+## 2023-04-07
+
+Install/Update HomeBrew Package without having to update all of homebrew
+
+```sh
+HOMEBREW_NO_AUTO_UPDATE=1 brew install aws/tap/aws-sam-cli
+```
+
+Ref: https://github.com/Homebrew/brew/issues/1670#issuecomment-267096602
+
+
 ## 2022-12-16
 
 Change linked Repository of Amplify
