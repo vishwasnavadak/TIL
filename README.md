@@ -1,5 +1,22 @@
 # TIL
 
+## 2023-10-01
+
+Troubleshooting and Enabling Universal Clipboard on Mac
+
+Run the Command 
+```sh
+defaults read ~/Library/Preferences/com.apple.coreservices.useractivityd.plist ClipboardSharingEnabled
+```
+The valuue should be 1. If not, run below to set to 1 and restart the Macbook.
+
+```sh
+defaults write ~/Library/Preferences/com.apple.coreservices.useractivityd.plist ClipboardSharingEnabled 1
+```
+
+Source: https://gadgetstouse.com/blog/2022/04/28/universal-clipboard-not-working-mac-iphone-ipad/?expand_article=1#:~:text=Method%208%2D%20Fix%20Universal%20Clipboard%20via%20Terminal%20Commands
+
+
 ## 2023-04-07
 
 Install/Update HomeBrew Package without having to update all of homebrew
