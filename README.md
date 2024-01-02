@@ -1,5 +1,15 @@
 # TIL
 
+## 2024-01002
+
+Imoprt a list of items from plaintext as indivividual items on Apple Reminder App
+- Copy a list from whatever
+- Paste it into Apple Notes app - make sure it's an actual list
+- Now, there's a "checkmark" icon on the top bar. Highlight entire list. Click it.
+- The list is now a checkmark list. Copy it and paste it to the reminders app.
+
+From: https://nowicki.io/how-to-import-a-list-into-apple-reminders/
+
 ## 2023-10-01
 
 Troubleshooting and Enabling Universal Clipboard on Mac
